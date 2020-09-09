@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# run all fixers and analyzers
+./php-cs-fixer.bash;
+./phpcs.bash;
+./phpstan.bash
